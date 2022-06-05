@@ -25,7 +25,7 @@ const Home = () => {
         muted
       />
         {/* container */}
-        <div data-aos="fade-right" class='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div data-aos="fade-right" className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         {/* Info sobre mi */}
         <p className='text-[#FF6B6B] text-2xl sm:text-2xl font-bold'>Hola</p>
         <span   className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>

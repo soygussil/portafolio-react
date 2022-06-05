@@ -14,17 +14,17 @@ const Servicios = () => {
              <div className='shadow-md bg-slate-800 p-4 m-2 hover:scale-110 duration-500 '>
                     <p>Desarrollador Web</p>
                     <p className='flex justify-center text-[3rem] py-4'> <MdDesktopMac /></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quam error voluptates laudantium animi accusantium ipsa rem eveniet provident totam, beatae doloremque illum facere alias autem esse, vero, delectus itaque!</p>
+                    <p>Puedo desarrollar un sitio web de acuerdo a tus necesidades, utilizando las últimas tecnologías, el desarrollo web moderno es lo máximo, hace que las páginas se vean fancys y bonitas 😊, aplicando mis conocimientos, podríamos obtener algo muy chido.</p>
              </div>   
              <div className='shadow-md bg-slate-800 p-4 m-2 hover:scale-110 duration-500 '>
                     <p>Diseñador UX/UI</p>
                     <p className='flex justify-center text-[3rem] py-4'> <MdCode /> </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laborum velit eaque molestias praesentium libero quibusdam vel dicta ipsum autem fugiat nobis repellendus, vero omnis consequuntur quam hic sequi ipsa?</p>
+                    <p>Estoy aún puliendo mis habilidades de diseñador, pero quizá pueda apoyarte en algo, el diseño moderno para mi es una de las cosas que pueden llegar a sobre salir sobre lo demás.</p>
              </div>   
              <div className='shadow-md bg-slate-800 p-4 m-2  hover:scale-110 duration-500 '>
                     <p>Desarrollador Software</p>
                     <p className='flex justify-center text-[3rem] py-4'> <MdPhonelinkSetup /> </p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolore, neque quod ipsa voluptates exercitationem. Totam dolor sed obcaecati itaque quod ullam consequatur reprehenderit perferendis dolore ab, rem, doloremque dolorum.</p>
+                    <p>He trabajado con algunas tecnologías, como Java, podría apoyarte a desarrollar algún software de acuerdo a tus necesidades.</p>
              </div>   
              </div>
         </div>

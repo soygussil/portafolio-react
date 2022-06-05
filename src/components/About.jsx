@@ -1,6 +1,18 @@
 import React from 'react'
+import data from '../assets/Dev.json';
+import Lottie from 'react-lottie'
 
 const About = () => {
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: data,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
+
   return (
     <div  name='about' className='w-full h-screen bg-[#04293A] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -13,13 +25,19 @@ const About = () => {
         </div>
             </div>  {/* Otro div */}
                 <div data-aos="fade-up" className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold '>
+                    <div className=' '>
                         {/* sobre mi  */}
-                        <p>Hola Soy Gustavo, Mucho gusto, por favor puedes... Lorem, ipsum dolor sit amet.</p>
+                        <Lottie options={defaultOptions} height={400} width={400}/>
                      </div>
                      <div>
                          {/* Texto acerca de mi */}
-                         <p>Me apasiona el desarrollo web.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora quos recusandae sint accusamus vero, cumque minima ipsum fugiat! Labore exercitationem officia quos reiciendis quo vero dignissimos optio tempora cum!</p>
+                         <p className='sm:text-left py-3'>
+                            <span className='text-bold text-2xl'>Hola! </span>
+                            Me pueden decir Gus, soy ingeniero en computación, y me desempeño en el desarrollo web, a mi me gusta mucho viajar, conocer lugares nuevos Me apasiona el desarrollo web, desde hace mucho tiempo me llamo la atención la tecnología, y que mejor manera de aprender a usarla.
+                         </p>
+                         <p className='sm:text-left py-8'>
+                        Actualmente me encuentro a punto de terminar el bootcamp de <span className='text-red-400 font-bold'> Generation México</span> el cual me brindo las herramientas para poder mejorar mis habilidades en el desarrollo web, yo no creí que llegará aprender tanto en tan poco tiempo. Bueno para no hacerla larga, a mí me gusta aprender cosas nuevas, estoy en constante actualización, y por ahora ando aprendiendo diversos frameworks para el desarrollo web. También estoy en un proyecto el cual es un sitio dedicado a la compraventa y renta en bienes raíces, el cual junto con un equipo de trabajo, hemos desarrollado diferentes habilidades, tanto como blandas, como tecnologícas. 
+                         </p>
                      </div>
                 </div>
         </div>

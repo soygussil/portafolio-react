@@ -12,7 +12,7 @@ const Navbar = () => {
     
   return (
     //   En esta parte podemos cambiar de color al navbar
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#050c16] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#050c16d4] text-gray-300">
         <div>
         <Link activeClass="active" to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo de Imagen" style={{width:'150px'}}/>

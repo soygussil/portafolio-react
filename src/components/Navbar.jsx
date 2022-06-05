@@ -3,6 +3,7 @@ import {FaBars, FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 // Esto hará que aparezca el menú de hamburguesa
@@ -21,11 +22,31 @@ const Navbar = () => {
         */}
 
         <ul className="hidden md:flex">
-                <li>Inicio</li>
-                <li>Acerca de mi</li>
-                <li>Skills</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+                <li>
+                <Link activeClass="active" to="home" smooth={true} duration={500}>
+                Inicio
+                </Link>
+                </li>
+                <li>
+                <Link activeClass="active" to="about" smooth={true} duration={500}>
+                Acerca de mi
+                </Link>
+                </li>
+                <li>
+                <Link activeClass="active" to="skills" smooth={true} duration={500}>
+                Skills
+                </Link>
+                </li>
+                <li>
+                <Link activeClass="active" to="work" smooth={true} duration={500}>
+                Portafolio
+                </Link>
+                </li>
+                <li>
+                <Link activeClass="active" to="contact" smooth={true} duration={500}>
+                Contacto
+                </Link>
+                </li>
         </ul>
 
 
@@ -40,11 +61,30 @@ const Navbar = () => {
 
             */}
             <ul className={!nav ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Inicio</li>
-                <li className='py-6 text-4xl'>Acerca de mi</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>Portafolio</li>
-                <li className='py-6 text-4xl'>Contacto</li>
+                <li  className='py-6 text-4xl'>                
+                <Link onClick={handleClick} activeClass="active" to="home" smooth={true} duration={500}>
+                Inicio
+                </Link></li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} activeClass="active" to="about" smooth={true} duration={500}>
+                Acerca de mi
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>                
+                <Link onClick={handleClick} activeClass="active" to="skills" smooth={true} duration={500}>
+                Skills
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} activeClass="active" to="work" smooth={true} duration={500}>
+                Portafolio
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} activeClass="active" to="contact" smooth={true} duration={500}>
+                Contacto
+                </Link>
+                </li>
             </ul>
             {/* Iconos sociales */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

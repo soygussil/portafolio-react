@@ -14,7 +14,7 @@ const Work = () => {
                 <p className='py-6'>// Checa los últimos trabajos que he realizado.</p>
             </div>
             {/* Container */}  
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div data-aos="fade-up" className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                
             {/* objeto grid */}
             <div

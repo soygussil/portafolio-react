@@ -12,9 +12,12 @@ const Navbar = () => {
     
   return (
     //   En esta parte podemos cambiar de color al navbar
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#050c16] text-gray-300">
         <div>
-            <img src={Logo} alt="Logo de Imagen" style={{width:'150px'}}/>
+        <Link activeClass="active" to="home" smooth={true} duration={500}>
+        <img src={Logo} alt="Logo de Imagen" style={{width:'150px'}}/>
+        </Link>
+            
             {/* <h1 className='font-bold'> Gus Dev/> </h1> */}
         </div>
         {/* Menu 
@@ -30,6 +33,11 @@ const Navbar = () => {
                 <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="about" smooth={true} duration={500}>
                 Acerca de mi
+                </Link>
+                </li>
+                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <Link activeClass="active" to="servicios" smooth={true} duration={500}>
+                Servicios
                 </Link>
                 </li>
                 <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>

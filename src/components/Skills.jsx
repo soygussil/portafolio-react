@@ -8,17 +8,20 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Java from '../assets/Java.png';
 import Bootstrap from '../assets/Bootstrap.svg';
+import Python from '../assets/Python.png';
+import Figma from '../assets/figma.png';
+import Mysql from '../assets/Mysql.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300' >
+    <div name='skills' className='w-full h-screen bg-[#064663] text-gray-300' >
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div  className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#FF6B6B] '>Skills</p>
                 <p className='py-4'>// Estas son las tecnologías con las que he trabajado</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
+            <div data-aos="fade-up" className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
                     <img className='w-20 mx-auto ' src={HTML} alt="HTML icono" />
                         <p className='my-4'>HTML</p>
@@ -55,6 +58,18 @@ const Skills = () => {
                     <img className='w-20 mx-auto ' src={Bootstrap} style={{width:'110px'}} alt="Bootstrap icono" />
                         <p className='my-4'>Bootstrap</p>
                 </div>   
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                    <img className='w-20 mx-auto ' src={Figma} style={{width:'80px'}} alt="Figma icono" />
+                        <p className='my-4'>Figma</p>
+                </div>  
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                    <img className='w-20 mx-auto ' src={Python} style={{width:'110px'}} alt="Python icono" />
+                        <p className='my-4'>Python</p>
+                </div>  
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                    <img className='w-20 mx-auto ' src={Mysql} style={{width:'250px'}} alt="Mysql icono" />
+                        <p className='my-4'>Mysql</p>
+                </div>  
             </div>
         </div>
     </div>

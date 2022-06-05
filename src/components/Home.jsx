@@ -1,5 +1,6 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {HiIdentification} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import heroVid from '../assets/video.mp4';
@@ -38,16 +39,24 @@ const Home = () => {
         <p className='text-[#aeafb3] p-4 max-w-[700px]'>Soy desarrollador web, con enfoque al frontend.
         Pasante de ingeniería en computación, aficionado al desarrollo web, he diseñado algunas páginas web de proyectos propios, tengo conocimientos en algunos lenguajes de programación, y de diseño, conocimientos en administración de windows, maquinas virtuales, y servidores, aficionado a la electrónica, sistemas embebidos e IoT. Me interesa el computo en la nube, y sus derivados. 
         Estoy en constante actualización y me gusta siempre aprender algo nuevo. </p>
-        <div>
+        <div className='flex justify-evenly'>
         <Link activeClass="active" to="work" smooth={true} duration={500}>
-        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-900
-        hover:border-[#1e3a8a] duration-200'>Mis trabajos 
-            <span className='group-hover:rotate-180 duration-300'>
-            <HiArrowNarrowRight className='ml-3'/> 
-            </span>
-            </button>
-              </Link>
-              
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-900
+          hover:border-[#1e3a8a] duration-200'>Mis trabajos 
+              <span className='group-hover:rotate-180 duration-300'>
+              <HiArrowNarrowRight className='ml-3'/> 
+              </span>
+          </button>
+        </Link>
+        <a target={'_blank'} rel="noreferrer" href="https://drive.google.com/file/d/122lUKtiyBJw3uvnEdGHSa6JS9RE_Twvz/view?usp=sharing">
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-900
+          hover:border-[#1e3a8a] duration-200'>Mi CV 
+              <span className='group-hover:rotate-45 duration-300'>
+              <HiIdentification className='ml-3'/> 
+              </span>
+             
+          </button>    
+          </a>
         </div>
         </div>
     </div>

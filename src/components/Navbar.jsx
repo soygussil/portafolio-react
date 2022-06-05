@@ -12,7 +12,7 @@ const Navbar = () => {
     
   return (
     //   En esta parte podemos cambiar de color al navbar
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#050c16d4] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#050c16d4]  text-gray-300">
         <div>
         <Link activeClass="active" to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo de Imagen" style={{width:'150px'}}/>
@@ -25,32 +25,32 @@ const Navbar = () => {
         */}
 
         <ul className="hidden md:flex">
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="home" smooth={true} duration={500}>
                 Inicio
                 </Link>
                 </li>
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="about" smooth={true} duration={500}>
                 Acerca de mi
                 </Link>
                 </li>
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="servicios" smooth={true} duration={500}>
                 Servicios
                 </Link>
                 </li>
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="skills" smooth={true} duration={500}>
                 Skills
                 </Link>
                 </li>
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="work" smooth={true} duration={500}>
                 Portafolio
                 </Link>
                 </li>
-                <li className='hover:bg-red-400 hover:border-r-2 duration-300 '>
+                <li className='hover:bg-blue-900 hover:border-r-2 duration-300 '>
                 <Link activeClass="active" to="contact" smooth={true} duration={500}>
                 Contacto
                 </Link>
@@ -78,6 +78,13 @@ const Navbar = () => {
                 Acerca de mi
                 </Link>
                 </li>
+                
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} activeClass="active" to="servicios" smooth={true} duration={500}>
+                Servicios
+                </Link>
+                </li>
+
                 <li className='py-6 text-4xl'>                
                 <Link onClick={handleClick} activeClass="active" to="skills" smooth={true} duration={500}>
                 Skills

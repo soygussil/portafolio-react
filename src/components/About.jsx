@@ -17,17 +17,17 @@ const About = () => {
     <div  name='about' className='w-full h-[1280px] md:h-screen bg-[#04293A] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4'>
+                <div className='pb-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#FF6B6B]'>Acerca de mí</p>
                 </div>
         <div>
             
         </div>
             </div>  {/* Otro div */}
-                <div data-aos="fade-up" className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div data-aos="fade-up" className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-6 px-4'>
                     <div className=' '>
                         {/* sobre mi  */}
-                        <Lottie options={defaultOptions} height={400} width={400}/>
+                        <Lottie options={defaultOptions} height={350} width={300}/>
                      </div>
                      <div>
                          {/* Texto acerca de mi */}

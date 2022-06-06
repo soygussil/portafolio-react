@@ -6,9 +6,10 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Servicios from "./components/Servicios";
+
 function App() {
   return (
-    <div>
+    <div className="App">
       <div>
         <Navbar />
         <Home />

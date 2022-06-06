@@ -26,17 +26,17 @@ const About = () => {
         </div>
             </div>  {/* Otro div */}
                 <div data-aos="fade-up" className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-6 px-4'>
-                    <div className=' '>
+                    <div className='py-6 '>
                         {/* sobre mi  */}
                         <Lottie options={defaultOptions} height={350} width={300}/>
                      </div>
                      <div>
                          {/* Texto acerca de mi */}
-                         <p className='sm:text-left py-3'>
+                         <p className='sm:text-justify py-3 m-4'>
                             <span className='text-bold text-4xl text-red-400 '> ¡Hola! </span>
                             Me pueden decir Gus, soy ingeniero en computación, la estudie en la Universidad Autónoma de Guerrero, tengo 27 años, me desempeño en el desarrollo web, a mi me gusta mucho viajar, conocer lugares nuevos Me apasiona el desarrollo web, desde hace mucho tiempo me llamo la atención la tecnología, y que mejor manera de aprender a usarla.
                          </p>
-                         <p className='sm:text-left py-8'>
+                         <p className='sm:text-justify py-8 m-4'>
                         Actualmente me encuentro a punto de terminar el bootcamp de <span className='text-red-400 font-bold'> Generation México</span> el cual me brindo las herramientas para poder mejorar mis habilidades en el desarrollo web, yo no creí que llegará aprender tanto en tan poco tiempo. Bueno para no hacerla larga, a mí me gusta aprender cosas nuevas, estoy en constante actualización, y por ahora ando aprendiendo diversos frameworks para el desarrollo web. También estoy en un proyecto el cual es un sitio dedicado a la compraventa y renta en bienes raíces, el cual junto con un equipo de trabajo, hemos desarrollado diferentes habilidades, tanto como blandas, como tecnologícas. 
                          </p>
                      </div>

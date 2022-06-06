@@ -39,7 +39,7 @@ const Home = () => {
         <p className='text-[#aeafb3] p-4 max-w-[700px]'>Soy desarrollador web, con enfoque al frontend.
         Pasante de ingeniería en computación, aficionado al desarrollo web, he diseñado algunas páginas web de proyectos propios, tengo conocimientos en algunos lenguajes de programación, y de diseño, conocimientos en administración de windows, maquinas virtuales, y servidores, aficionado a la electrónica, sistemas embebidos e IoT. Me interesa el computo en la nube, y sus derivados. 
         Estoy en constante actualización y me gusta siempre aprender algo nuevo. </p>
-        <div className='flex justify-evenly'>
+        <div className='flex justify-evenly py-8'>
         <Link activeClass="active" to="work" smooth={true} duration={500}>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-900
           hover:border-[#1e3a8a] duration-200'>Mis trabajos 

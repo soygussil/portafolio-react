@@ -4,7 +4,7 @@ import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
 
 const Servicios = () => {
   return (
-    <div name='servicios' className='w-full h-[1300px] md:h-screen bg-[#042839] text-gray-300'>
+    <div name='servicios' className='w-full h-[1280px] md:h-[screen] bg-[#042839] text-gray-300'>
         <div  className='max-w-[1000px]  mx-auto p-6 flex flex-col justify-center w-full h-full'>
              <div>
                   <p className='text-4xl font-bold inline border-b-4 border-[#FF6B6B] '>Servicios</p>
